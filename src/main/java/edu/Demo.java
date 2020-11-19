@@ -2,6 +2,10 @@ package edu;
 
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("Hello!");
+        int[] releaseTimes = {1, 2, 3, 10, 11};
+        String keysPressed = "lkwen";
+        char slowestKey = SlowestKeySolution.solve(releaseTimes, keysPressed);
+        System.out.println(slowestKey);
     }
 }
+

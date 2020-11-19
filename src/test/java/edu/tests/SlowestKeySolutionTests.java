@@ -7,7 +7,6 @@ import org.junit.jupiter.params.provider.*;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 public class SlowestKeySolutionTests {
     @ParameterizedTest
     @MethodSource("createSlowestKeyExpectations")
